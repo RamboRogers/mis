@@ -1,11 +1,13 @@
 ![alt text](mis_title.png)
-# Make It So
+# Make It So 🖖
 
-A command-line interface for the Make It So agent.
+A command-line interface for the Make It So agent.  This is a free alpha release. If you have any feedback, please let me know!
 
-Install on your machine!
+Make it So allows for you to issue orders to your computer. The idea was to make a textual interface resebmling how you would interact with the main computer on the Star Trek series.
 
-### Apple Silicon (M1/M2/M3)
+## Installs on Your Machine in Seconds ⚡
+
+### Apple Silicon (M1/M2/M3) 🍎
 
 Copy paste the following into your terminal:
 
@@ -13,12 +15,25 @@ Copy paste the following into your terminal:
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh | sh
 ```
 
-### Works with OpenAI/Mistral/Groq/X.ai/Ollama
+Now you can run `mis` from anywhere on your machine.
+
+```
+mis show my listening tcp ports
+```
+
+or
+
+```
+mis using ffmpeg convert video.mp4 to video.gif
+```
+
+Miss makes complicated tasks easy. Skip the manpages and just get it done. 🚀
+
+### Works with OpenAI/Mistral/Groq/X.ai/Ollama 🤖
 
 ![AI Providers](providers.png)
 
-
-### Use Cases
+### Use Cases 💡
 
 I'm on a Mac here, will this know the right command to use?
 ![TCP Port Check](example_01.png)
@@ -41,5 +56,13 @@ Looking up DNS records.
 Yes it bridges the gap and knows the right command to use.
 ![Record Check](example_07.png)
 
+## License and Contact ⚖️
 
+This project is provided as is.  I'm not responsible for any damage it may cause.  Use at your own risk.
 
+### Connect With Me 🤝
+- GitHub: [RamboRogers](https://github.com/RamboRogers)
+- X/Twitter: [@rogerscissp](https://x.com/rogerscissp)
+- Website: [matthewrogers.org](https://matthewrogers.org)
+
+![github](ramborogers.png)
