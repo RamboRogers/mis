@@ -22,8 +22,13 @@ sudo chmod +x mis
 echo "Moving Make It So agent to /usr/local/bin/mis..."
 sudo mv mis /usr/local/bin/mis
 
+# Remove quarantine attribute
+echo "Removing quarantine attribute..."
+sudo xattr -d com.apple.quarantine /usr/local/bin/mis
+
 # Clean up
 echo "Cleaning up..."
 rm mis.darwin.zip
 
 echo "Make It So agent installed successfully!"
+echo "You can now use 'mis' command in your terminal!"
