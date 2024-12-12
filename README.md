@@ -1,4 +1,4 @@
-![alt text](mis_title.png)
+![MIS Intro Video](mis-intro.gif)
 # Make It So 🖖
 
 A command-line interface for the Make It So agent.  This is a free alpha release. If you have any feedback, please let me know!
