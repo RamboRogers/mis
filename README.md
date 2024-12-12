@@ -29,6 +29,21 @@ mis using ffmpeg convert video.mp4 to video.gif
 
 Miss makes complicated tasks easy. Skip the manpages and just get it done. 🚀
 
+### Configuration 🔧
+
+Mis self configures on first run, but you can re-run the configuration at any time.
+
+To re-run the configuration, use the `-r` flag.
+```
+mis -r
+```
+
+To change the AI provider, use the `-m` flag.
+
+```
+mis -m
+```
+
 ### Works with OpenAI/Mistral/Groq/X.ai/Ollama 🤖
 
 ![AI Providers](providers.png)
