@@ -7,7 +7,7 @@ Make it So allows for you to issue orders to your computer. The idea was to make
 
 ## Installs on Your Machine in Seconds ⚡
 
-### Apple Silicon (M1/M2/M3) 🍎
+### Apple Silicon (M1/M2/M3/M4/M?) 🍎
 
 Copy paste the following into your terminal:
 
