@@ -4,7 +4,7 @@
 
 echo "Installing Make It So agent on your machine..."
 # Check if the user is on Linux
-if ! [[ $(uname) == "Linux" ]]; then
+if [ "$(uname)" != "Linux" ]; then
     echo "This script is only supported on Linux."
     exit 1
 fi
