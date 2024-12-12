@@ -29,6 +29,14 @@ mis using ffmpeg convert video.mp4 to video.gif
 
 Miss makes complicated tasks easy. Skip the manpages and just get it done. 🚀
 
+### Linux Installation 🐧
+
+Copy paste the following into your terminal:
+
+```
+curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis_linux.sh | sh
+```
+
 ### Configuration 🔧
 
 Mis self configures on first run, but you can re-run the configuration at any time.
