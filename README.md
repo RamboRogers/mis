@@ -88,6 +88,13 @@ mis -m
 ```
 
 <div align="center">
+  <img src="media/providers.png" alt="Easy Provider Selection" width="600"/>
+  <br/>
+  <em>Simple Provider Configuration</em>
+</div>
+
+
+<div align="center">
   <img src="media/api.png" alt="Easy API Configuration" width="600"/>
   <br/>
   <em>Simple API Configuration</em>
