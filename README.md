@@ -14,26 +14,24 @@
 
 ## 🚀 Quick Install
 
-<table>
-<tr>
-<td>
-
 ### 🐧 Linux & 🍎 macOS
 ```bash
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh | sh
 ```
-
-</td>
-<td>
 
 ### 🪟 Windows PowerShell
 ```powershell
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
 ```
 
-</td>
-</tr>
-</table>
+Now you can run `mis` from anywhere on your machine:
+```bash
+# Configure MIS
+mis -c
+
+# Or jump right in
+mis show my listening tcp ports
+```
 
 ## 📥 Detailed Installation
 
