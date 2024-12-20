@@ -9,7 +9,7 @@
   [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)]()
   [![Version](https://img.shields.io/badge/version-1.0.0-green)]()
 
-  <p>Issue natural language commands to your computer - like talking to the Star Trek computer.</p>
+  <p>Issue natural language commands to your computer - like talking to the Star Trek computer. Rewritten in Go.</p>
 </div>
 
 ## 🚀 Quick Install
@@ -36,54 +36,6 @@ mis -c
 # Or jump right in
 mis show my listening tcp ports
 ```
-
-## 📥 Detailed Installation
-
-<details>
-<summary>🪟 Windows Installation</summary>
-
-### Option 1: PowerShell One-Line Install
-```powershell
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
-```
-
-### Option 2: Manual Download
-1. Download `mis-windows-amd64.exe` from the [latest release](https://github.com/RamboRogers/mis/releases/latest)
-2. Rename to `mis.exe`
-3. Move to a directory in your PATH
-
-</details>
-
-<details>
-<summary>🐧 Linux Installation</summary>
-
-### Option 1: Shell Script Install
-```bash
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh | sh
-```
-
-### Option 2: Manual Download
-1. Download appropriate binary for your architecture
-2. Make executable: `chmod +x mis`
-3. Move to `/usr/local/bin`: `sudo mv mis /usr/local/bin/`
-
-</details>
-
-<details>
-<summary>🍎 macOS Installation</summary>
-
-### Option 1: Shell Script Install
-```bash
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh | sh
-```
-
-### Option 2: Manual Download
-1. Download appropriate binary for your architecture (amd64 for Intel, arm64 for Apple Silicon)
-2. Make executable: `chmod +x mis`
-3. Move to `/usr/local/bin`: `sudo mv mis /usr/local/bin/`
-
-</details>
-</details>
 
 ## ✨ Features
 
