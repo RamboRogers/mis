@@ -15,11 +15,13 @@
 ## 🚀 Quick Install
 
 ### 🐧 Linux & 🍎 macOS
+
 ```bash
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh | sh
 ```
 
 ### 🪟 Windows PowerShell
+
 ```powershell
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
 ```
