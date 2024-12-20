@@ -45,11 +45,6 @@ mis show my listening tcp ports
 - 📝 **Natural Language**: Skip the man pages, just describe what you want
 - 🔒 **Safe Execution**: Reviews commands with you before running
 
-<div align="center">
-  <img src="media/providers.png" alt="AI Providers" width="600"/>
-  <br/>
-  <em>Supported AI Providers</em>
-</div>
 
 ## 🎯 Example Use Cases
 
