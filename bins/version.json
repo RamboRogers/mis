@@ -1,0 +1,10 @@
+{
+    "build_date": "2024-12-20T22:08:46Z",
+    "platforms": [
+        "linux-amd64",
+        "linux-arm64",
+        "darwin-amd64",
+        "darwin-arm64",
+        "windows-amd64"
+    ]
+}
