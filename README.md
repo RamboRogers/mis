@@ -24,6 +24,8 @@ curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.sh 
 curl -L https://raw.githubusercontent.com/RamboRogers/mis/master/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
 ```
 
+## Usage
+
 Now you can run `mis` from anywhere on your machine:
 ```bash
 # Configure MIS
