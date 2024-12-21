@@ -32,7 +32,7 @@ curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/instal
 ### 🪟 Windows PowerShell
 
 ```powershell
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
+iwr -useb https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install_mis.ps1 | iex
 ```
 
 ## Usage
