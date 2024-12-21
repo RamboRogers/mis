@@ -17,13 +17,13 @@
 ### 🐧 Linux & 🍎 macOS
 
 ```bash
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/main/install_mis.sh | sh
+curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install.sh | sh
 ```
 
 ### 🪟 Windows PowerShell
 
 ```powershell
-curl -L https://raw.githubusercontent.com/RamboRogers/mis/main/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
+curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install_mis.ps1 | powershell -ExecutionPolicy Bypass -File -
 ```
 
 ## Usage
