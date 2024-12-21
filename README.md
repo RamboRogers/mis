@@ -9,8 +9,17 @@
   [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)]()
   [![Version](https://img.shields.io/badge/version-1.0.0-green)]()
 
-  <p>Issue natural language commands to your computer - like talking to the Star Trek computer. Rewritten in Go.</p>
+  <p>Issue natural language commands to your computer - like talking to the Star Trek computer. Rewritten in Go.  </p>
+
+
+
+  <i>Get a free API key from <a href="https://cerebras.ai/">Cerebras.ai</a> to use with the Cerebras provider.</i>
+
+<i>Note: Some models are for **mis**, llama3 works well. Mistral is good.</i>
 </div>
+
+
+
 
 ## 🚀 Quick Install
 
