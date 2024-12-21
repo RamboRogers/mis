@@ -15,7 +15,7 @@
 
   <i>Get a free API key from <a href="https://cerebras.ai/">Cerebras.ai</a> to use with the Cerebras provider.</i>
 
-<i>Note: Some models are for **mis**, llama3 works well. Mistral is good.</i>
+<i>Note: Some models are goodfor **mis**, llama3 works well. Mistral is good.</i>
 </div>
 
 
