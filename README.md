@@ -35,6 +35,18 @@ curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/instal
 iwr -useb https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install_mis.ps1 | iex
 ```
 
+## 📦 Version 1.0.1
+
+***Keep the issues and enhancement requests coming!***
+
+- Added support for Cerebras provider
+- Improved command parsing accuracy
+- Enhanced system context awareness
+- UI improvements for command review
+- Better error handling and feedback
+
+![New Features](media/providers.png)
+
 ## Usage
 
 Now you can run `mis` from anywhere on your machine:
@@ -121,16 +133,14 @@ mis show me pods in namespace production
 
 This project is licensed under the MIT License. Use at your own risk.
 
-## 👤 Author
-
 <div align="center">
-  <img src="media/ramborogers.png" alt="RamboRogers" width="200"/>
-  <br/>
-  <b>Matthew Rogers</b>
-  <br/>
-  <br/>
 
-  [![GitHub](https://img.shields.io/badge/GitHub-RamboRogers-black?style=flat&logo=github)](https://github.com/RamboRogers)
-  [![Twitter](https://img.shields.io/badge/Twitter-@rogerscissp-blue?style=flat&logo=twitter)](https://twitter.com/rogerscissp)
-  [![Website](https://img.shields.io/badge/Web-matthewrogers.org-green?style=flat&logo=safari)](https://matthewrogers.org)
+### Connect With Me 🤝
+
+[![GitHub](https://img.shields.io/badge/GitHub-RamboRogers-181717?style=for-the-badge&logo=github)](https://github.com/RamboRogers)
+[![Twitter](https://img.shields.io/badge/Twitter-@rogerscissp-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/rogerscissp)
+[![Website](https://img.shields.io/badge/Web-matthewrogers.org-00ADD8?style=for-the-badge&logo=google-chrome)](https://matthewrogers.org)
+
+![Matthew Rogers](media/ramborogers.png)
+
 </div>
