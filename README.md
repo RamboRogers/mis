@@ -11,11 +11,9 @@
 
   <p>Issue natural language commands to your computer - like talking to the Star Trek computer. Rewritten in Go.  </p>
 
-
-
   <i>Get a free API key from <a href="https://cerebras.ai/">Cerebras.ai</a> to use with the Cerebras provider.</i>
 
-<i>Note: Some models are goodfor **mis**, llama3 works well. Mistral is good.</i>
+<i>Note: Some models are good for **mis**, llama3 works well. Mistral is good, I've heard deepseek is good.</i>
 </div>
 
 
@@ -35,7 +33,20 @@ curl -L https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/instal
 iwr -useb https://raw.githubusercontent.com/RamboRogers/mis/refs/heads/main/install_mis.ps1 | iex
 ```
 
-## 📦 Version 1.0.1
+### 🍺 macOS (Homebrew)
+
+```bash
+brew tap RamboRogers/mis
+brew install mis
+```
+
+## Version 0.1.1m
+
+- Added support for DeepSeek provider
+- Homebrew install
+- License changed to CC-BY-ND V4
+
+## 📦 Version 0.1.0m
 
 ***Keep the issues and enhancement requests coming!***
 
