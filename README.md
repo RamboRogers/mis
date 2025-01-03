@@ -46,6 +46,7 @@ brew install mis
 - Homebrew install
 - License changed to CC-BY-ND V4
 
+
 ## 📦 Version 0.1.0m
 
 ***Keep the issues and enhancement requests coming!***
