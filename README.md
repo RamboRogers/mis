@@ -7,16 +7,30 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue)]()
-  [![Version](https://img.shields.io/badge/version-1.0.0-green)]()
+  [![Version](https://img.shields.io/badge/version-0.2.0m-green)]()
 
-  <p>Issue natural language commands to your computer - like talking to the Star Trek computer. Rewritten in Go.  </p>
-
-  <i>Get a free API key from <a href="https://cerebras.ai/">Cerebras.ai</a> to use with the Cerebras provider.</i>
-
-<i>Note: Some models are good for **mis**, llama3 works well. Mistral is good, I've heard deepseek is good.</i>
 </div>
 
+<p>🤖 Speak to your computer naturally - just like conversing with the Star Trek computer! MIS maintains context between commands, giving you the confidence to navigate your system with ease. <b>MIS is your missing man page! 🚀</b></p>
 
+
+> <i>Note: Some models are good for **mis**, llama4 works well. Mistral codestral is good, Google Gemini Flash works.</i>
+
+## 🚀 Introducing: YOLO Mode
+
+🌎 **Prepare for a paradigm shift in command-line interaction!**
+
+Version 0.2.0m proudly unveils **YOLO Mode**, a groundbreaking advancement that catapults MIS into the realm of truly autonomous system management. This isn't just automation; it's empowerment.
+
+With YOLO Mode activated, MIS gains the unprecedented ability to execute commands decisively and intelligently—*without requiring manual confirmation*. This transformative feature is meticulously engineered to support:
+
+*   **Complex Scripting:** Enabling fully autonomous system operations.
+*   **Real-Time Event Response:** Allowing for instantaneous responses to dynamic, real-time events.
+*   **Unparalleled Efficiency:** Unlocking sophisticated automated workflows, vigilant system monitoring, and lightning-fast reactions to critical system conditions.
+
+YOLO Mode is here to redefine what's possible.
+
+![yolo](media/yolo.png)
 
 
 ## 🚀 Quick Install
@@ -40,46 +54,70 @@ brew tap RamboRogers/mis
 brew install mis
 ```
 
-## Version 0.1.1m
+## Get AI API 💻 Access
 
-- Added support for DeepSeek provider
-- Homebrew install
-- License changed to CC-BY-ND V4
+MIS supports many API endpoints.  If you just want to be quick and you have a Google account goto https://aistudio.google.com/ and click "Get API Key" and use that API key with the Google Provider in MIS.
 
+![Google API](media/google.png)
 
-## 📦 Version 0.1.0m
+Mistral also gives free API access. https://console.mistral.ai/
 
-***Keep the issues and enhancement requests coming!***
+![Mistral API](media/mistral.png)
 
-- Added support for Cerebras provider
-- Improved command parsing accuracy
-- Enhanced system context awareness
-- UI improvements for command review
-- Better error handling and feedback
+## ⌨️ CLI Usage & Flags
 
-![New Features](media/providers.png)
+Basic execution:
+`mis "your natural language command"`
 
-## Usage
+**Available Flags:**
 
-Now you can run `mis` from anywhere on your machine:
+| Flag             | Shorthand | Description                                                                 |
+|------------------|-----------|-----------------------------------------------------------------------------|
+| `--configure`    | `-c`      | Run the full configuration wizard for AI provider, API base, and API key.   |
+| `--model`        | `-m`      | Run the configuration wizard for model selection only (API must be set).    |
+| `--yolo`         | `-y`      | **YOLO Mode**: Automatically execute the first command without confirmation.  |
+| `--version`      | `-v`      | Show version and system information.                                        |
+| `--help`         | `-h`      | Show help message with usage, flags, and examples.                        |
+
+**Examples:**
+
 ```bash
-# Configure MIS
+# Initial full configuration
 mis -c
 
-# Or jump right in
-mis show my listening tcp ports
+# Update just the model for the current provider
+mis -m
+
+# Ask a question
+mis "list all running docker containers"
+
+# Use YOLO mode to get disk usage quickly (use with caution!)
+mis -y "show me disk usage"
+
+# Get version info
+mis -v
 ```
+
+## 🚀 Version 0.2.0m
+
+- **YOLO (You Only Live Once) Mode**: Added `-y` or `--yolo` flag to auto-execute the first suggested command without confirmation. Ideal for scripting or confident users. Output is tagged (`<command>`, `<output>`).
+- **Expanded Provider Support**: Added official support for Google Gemini and Anthropic API. Full list includes OpenAI, Mistral AI, Groq, Cerebras, DeepSeek, Ollama (Local), Google Gemini, and Anthropic.
+- **Enhanced Error Handling**: Improved error display within the TUI, making long error messages scrollable.
+- **Refined Debugging**: Streamlined debug logging for better issue diagnosis.
+- General stability improvements and minor UI tweaks.
+
 
 ## ✨ Features
 
-- 🤖 **Multi-Provider Support**: Works with OpenAI, Mistral, Groq, Cerebras, X.ai, and Ollama
+- 🤖 **Multi-Provider Support**: Works with OpenAI, Mistral AI, Groq, Cerebras, DeepSeek, Ollama (Local), Google Gemini, and Anthropic API.
+- 🚀 **YOLO Mode**: Auto-execute commands with `-y` for rapid tasks. Output is cleanly tagged for parsing.
 - 🔍 **Context-Aware**: Understands your system and environment
-- 🛠️ **Easy Configuration**: Simple setup with `-c` and `-m` flags
+- 🛠️ **Easy Configuration**: Simple setup with `-c` and `-m` flags (see CLI Usage & Flags).
 - 📝 **Natural Language**: Skip the man pages, just describe what you want
-- 🔒 **Safe Execution**: Reviews commands with you before running
+- 🔒 **Safe Execution**: Reviews commands with you before running (unless in YOLO mode)
 
 
-## 🎯 Example Use Cases
+## 🌎 Example Use Cases
 
 <details>
 <summary>📊 System Analysis</summary>
